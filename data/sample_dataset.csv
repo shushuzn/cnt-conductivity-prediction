@@ -1,0 +1,6 @@
+paper_id,doi,title,year,journal,diameter_nm,length_um,layers,method,cvd_temperature_C,catalyst,carbon_source,conductivity_Sm,tensile_strength_GPa,youngs_modulus_GPa,notes,status
+CNT_001,10.1038/nature06964,"Helical microtubules of graphitic carbon",1991,Nature,1.5,10,1,Arc discharge,,,,1.2e6,50,1000,SWCNT example,Extracted
+CNT_002,10.1126/science.287.5453.637,"Strength and breaking mechanism of multiwalled carbon nanotubes under tensile load",2000,Science,5.0,50,10,CVD,800,Fe,CH4,8.5e5,63,1200,MWCNT example,Extracted
+CNT_003,10.1103/PhysRevLett.82.944,"Elastic and shear moduli of single-walled carbon nanotube ropes",1999,Physical Review Letters,2.0,100,1,Laser ablation,,,,1.0e6,45,1000,SWCNT rope,Extracted
+CNT_004,10.1016/j.carbon.2019.01.001,"Carbon nanotube electrical conductivity dataset",2019,Carbon,3.5,200,1,CVD,750,Co,C2H2,9.2e5,,,Conductivity focus,Extracted
+CNT_005,10.1021/nl990000m,"Nanobeam mechanics: Elasticity, strength, and toughness of nanorods and nanotubes",1997,Science,4.0,15,5,Arc discharge,,,,7.8e5,150,1500,High strength,Extracted

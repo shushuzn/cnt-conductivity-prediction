@@ -1,0 +1,22 @@
+{
+  "model_version": "v1",
+  "date": "2026-03-06T22:41:46.639079",
+  "n_samples": 2,
+  "n_train": 1,
+  "n_test": 1,
+  "features": [
+    "diameter_nm",
+    "length_um",
+    "layers",
+    "cvd_temperature_C"
+  ],
+  "target": "conductivity_Sm",
+  "metrics": {
+    "r2": NaN,
+    "mae": 0.034368901631262716,
+    "rmse": 0.034368901631262716,
+    "cv_r2_mean": null,
+    "cv_r2_std": null
+  },
+  "kernel": "0.00316**2 * RBF(length_scale=[1, 1, 1, 1]) + WhiteKernel(noise_level=1e-05)"
+}
