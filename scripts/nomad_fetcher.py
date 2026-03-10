@@ -13,6 +13,10 @@ API Docs:
     https://nomad-lab.eu/production/
 """
 
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
 import requests
 import pandas as pd
 from pathlib import Path
@@ -29,7 +33,7 @@ print("=" * 70)
 OUTPUT_DIR = Path("D:/OpenClaw/workspace/11-research/cnt-research/data/nomad")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-NOMAD_API_BASE = "https://nomad-lab.eu/production/repo/api/v1"
+NOMAD_API_BASE = "https://nomad-lab.eu/prod/v1/api"
 QUERY = "carbon nanotube"
 LIMIT = 100
 
@@ -37,23 +41,28 @@ LIMIT = 100
 # NOMAD API 查询
 # ============================================================================
 def search_nomad(query, limit=100):
-    """搜索 NOMAD 数据库"""
+    """搜索 NOMAD 数据库 - 使用公开搜索 API"""
     print(f"\n🔍 搜索 NOMAD: '{query}' (limit={limit})")
     
-    url = f"{NOMAD_API_BASE}/entries"
+    # 使用 NOMAD 公开搜索 API
+    url = "https://nomad-lab.eu/prod/v1/api/search"
+    headers = {
+        'User-Agent': 'Mozilla/5.0',
+        'Accept': 'application/json'
+    }
     params = {
-        'q': query,
-        'limit': limit,
-        'include': 'metadata'
+        'query': query,
+        'limit': limit
     }
     
     try:
-        response = requests.get(url, params=params, timeout=30)
+        response = requests.get(url, params=params, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
         
-        print(f"   ✅ 找到 {len(data.get('entries', []))} 条记录")
-        return data.get('entries', [])
+        results = data.get('response', {}).get('results', [])
+        print(f"   ✅ 找到 {len(results)} 条记录")
+        return results
     
     except Exception as e:
         print(f"   ❌ 错误：{e}")

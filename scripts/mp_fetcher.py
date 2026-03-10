@@ -14,6 +14,10 @@ Dependencies:
 """
 
 import os
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
 from pathlib import Path
 from datetime import datetime
 
@@ -27,7 +31,8 @@ print("=" * 70)
 OUTPUT_DIR = Path("D:/OpenClaw/workspace/11-research/cnt-research/data/mp")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-API_KEY = os.getenv('MP_API_KEY', 'your_api_key_here')
+# 使用环境变量或直接指定 API Key
+API_KEY = os.getenv('MP_API_KEY', 'BZa02Shw2FdYQ8YOHkKdg7CeK3KIlWAj')
 
 # ============================================================================
 # 检查 API Key
@@ -73,11 +78,11 @@ if __name__ == "__main__":
     
     try:
         with MPRester(API_KEY) as mpr:
-            # 搜索材料
-            docs = mpr.materials.summary.search(
+            # 搜索材料 - 使用新的 API v2 (修复字段名)
+            docs = mpr.materials.search(
                 formula=args.query,
-                fields=['material_id', 'formula_pretty', 'structure', 
-                       'band_gap', 'is_metal', 'density', 'elements']
+                fields=['material_id', 'formula_pretty', 'density', 
+                       'elements', 'structure']
             )
             
             print(f"   ✅ 找到 {len(docs)} 条记录")
@@ -92,15 +97,26 @@ if __name__ == "__main__":
             
             for doc in docs:
                 try:
+                    # 获取 bandgap (从电子能带结构)
+                    band_gap = None
+                    is_metal = None
+                    try:
+                        if hasattr(doc, 'bandgap'):
+                            band_gap = doc.bandgap
+                        if hasattr(doc, 'is_metallic'):
+                            is_metal = doc.is_metallic
+                    except:
+                        pass
+                    
                     record = {
                         'source': 'Materials Project',
                         'material_id': doc.material_id,
                         'formula': doc.formula_pretty,
-                        'band_gap': doc.band_gap,
-                        'is_metal': doc.is_metal,
+                        'band_gap': band_gap,
+                        'is_metal': is_metal,
                         'density': doc.density,
-                        'elements': ','.join(doc.elements),
-                        'n_elements': len(doc.elements),
+                        'elements': ','.join(doc.elements) if hasattr(doc, 'elements') else '',
+                        'n_elements': len(doc.elements) if hasattr(doc, 'elements') else 0,
                         'extracted_at': datetime.now().isoformat()
                     }
                     extracted.append(record)
