@@ -78,11 +78,9 @@ if __name__ == "__main__":
     
     try:
         with MPRester(API_KEY) as mpr:
-            # 搜索材料 - 使用新的 API v2 (修复字段名)
-            docs = mpr.materials.search(
-                formula=args.query,
-                fields=['material_id', 'formula_pretty', 'density', 
-                       'elements', 'structure']
+            # 搜索材料 - 使用新的 API v2
+            docs = mpr.materials.summary.search(
+                formula=args.query
             )
             
             print(f"   ✅ 找到 {len(docs)} 条记录")
@@ -115,7 +113,7 @@ if __name__ == "__main__":
                         'band_gap': band_gap,
                         'is_metal': is_metal,
                         'density': doc.density,
-                        'elements': ','.join(doc.elements) if hasattr(doc, 'elements') else '',
+                        'elements': ','.join([str(e) for e in doc.elements]) if hasattr(doc, 'elements') else '',
                         'n_elements': len(doc.elements) if hasattr(doc, 'elements') else 0,
                         'extracted_at': datetime.now().isoformat()
                     }
