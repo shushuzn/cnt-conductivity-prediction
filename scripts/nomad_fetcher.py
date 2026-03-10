@@ -33,7 +33,10 @@ print("=" * 70)
 OUTPUT_DIR = Path("D:/OpenClaw/workspace/11-research/cnt-research/data/nomad")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+# NOMAD API 配置
+# 注册获取 Token: https://nomad-lab.eu/
 NOMAD_API_BASE = "https://nomad-lab.eu/prod/v1/api"
+NOMAD_TOKEN = ""  # 留空使用公开 API，或填入你的 Token
 QUERY = "carbon nanotube"
 LIMIT = 100
 
@@ -41,15 +44,20 @@ LIMIT = 100
 # NOMAD API 查询
 # ============================================================================
 def search_nomad(query, limit=100):
-    """搜索 NOMAD 数据库 - 使用公开搜索 API"""
+    """搜索 NOMAD 数据库"""
     print(f"\n🔍 搜索 NOMAD: '{query}' (limit={limit})")
     
-    # 使用 NOMAD 公开搜索 API
-    url = "https://nomad-lab.eu/prod/v1/api/search"
+    url = f"{NOMAD_API_BASE}/search"
     headers = {
         'User-Agent': 'Mozilla/5.0',
         'Accept': 'application/json'
     }
+    
+    # 如果有 Token，添加认证
+    if NOMAD_TOKEN:
+        headers['Authorization'] = f'Bearer {NOMAD_TOKEN}'
+        print(f"   使用 Token 认证")
+    
     params = {
         'query': query,
         'limit': limit
@@ -57,6 +65,12 @@ def search_nomad(query, limit=100):
     
     try:
         response = requests.get(url, params=params, headers=headers, timeout=30)
+        
+        if response.status_code == 401:
+            print(f"   ❌ 需要认证：请注册 NOMAD 账户获取 Token")
+            print(f"   注册地址：https://nomad-lab.eu/")
+            return []
+        
         response.raise_for_status()
         data = response.json()
         
