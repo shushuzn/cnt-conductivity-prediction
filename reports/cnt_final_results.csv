@@ -1,0 +1,9 @@
+Metric,Value
+Sample_Size,194.0
+Num_Features,3.0
+Nested_CV_R2,0.5813672653281972
+Cohen_f2,1.3887286329483381
+Statistical_Power_Approx,1.0
+Required_Samples_Power_0.8,9.0
+VIF_All_Pass,1.0
+VIF_Max,3.71
