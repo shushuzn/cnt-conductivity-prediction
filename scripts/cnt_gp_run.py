@@ -27,7 +27,16 @@ print("=" * 70)
 # ============================================================================
 # 配置
 # ============================================================================
+import argparse
+
+parser = argparse.ArgumentParser(description="CNT GP 模型训练")
+parser.add_argument('--data', type=str, default=None, help='数据文件路径')
+args = parser.parse_args()
+
 DATA_PATH = Path("D:/OpenClaw/workspace/11-research/cnt-research/data/cnt_dataset_v1.csv")
+if args.data:
+    DATA_PATH = Path(args.data)
+    
 MODELS_DIR = Path("D:/OpenClaw/workspace/11-research/cnt-research/models")
 FIGURES_DIR = Path("D:/OpenClaw/workspace/11-research/cnt-research/figures")
 
@@ -35,8 +44,14 @@ MODELS_DIR.mkdir(parents=True, exist_ok=True)
 FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
 # 特征和目标
-FEATURES = ['diameter_nm', 'length_um', 'layers', 'cvd_temperature_C']
+# 注意：cvd_temperature_C 只有 CVD 法样本有，其他方法为 NaN
+# 使用更保守的特征集，确保数据完整性
+FEATURES_CORE = ['diameter_nm', 'length_um', 'layers']
+FEATURES_FULL = ['diameter_nm', 'length_um', 'layers', 'cvd_temperature_C']
 TARGET = 'conductivity_Sm'
+
+# 自动选择特征：如果 cvd_temperature_C 缺失率>50%，只用核心特征
+USE_FULL_FEATURES = None  # 将在数据加载后决定
 
 # ============================================================================
 # 1. 加载数据
@@ -53,10 +68,25 @@ print(f"  数据文件：{DATA_PATH}")
 print(f"  原始样本数：{len(df)}")
 
 # 检查必要列
-missing_cols = [col for col in FEATURES + [TARGET] if col not in df.columns]
+missing_cols = [col for col in FEATURES_CORE + [TARGET] if col not in df.columns]
 if missing_cols:
     print(f"  ❌ 缺少列：{missing_cols}")
     exit(1)
+
+# 自动选择特征：检查 cvd_temperature_C 完整性
+if 'cvd_temperature_C' in df.columns:
+    temp_missing_rate = df['cvd_temperature_C'].isna().mean()
+    print(f"  cvd_temperature_C 缺失率：{temp_missing_rate:.1%}")
+    
+    if temp_missing_rate > 0.5:
+        print(f"  [INFO] 缺失率>50%，使用核心特征 (3 个)")
+        FEATURES = FEATURES_CORE.copy()
+    else:
+        print(f"  [INFO] 缺失率≤50%，使用完整特征 (4 个)")
+        FEATURES = FEATURES_FULL.copy()
+else:
+    print(f"  [INFO] cvd_temperature_C 列不存在，使用核心特征 (3 个)")
+    FEATURES = FEATURES_CORE.copy()
 
 # 处理缺失值
 df = df.dropna(subset=FEATURES + [TARGET])
@@ -72,11 +102,58 @@ for col in FEATURES + [TARGET]:
     print(f"    {col}: {df[col].min():.2f} - {df[col].max():.2f}")
 
 # ============================================================================
-# 2. 数据预处理
+# 2. 数据预处理 + 特征工程
 # ============================================================================
-print("\n[2/6] 数据预处理...")
+print("\n[2/6] 数据预处理 + 特征工程...")
 
-X = df[FEATURES].values
+# 衍生特征
+print("  添加衍生特征...")
+
+# 1. 长径比 (aspect ratio) - 如果 length_um 缺失，用典型值填充
+df['length_um_filled'] = df['length_um'].fillna(df['length_um'].median())
+df['aspect_ratio'] = df['length_um_filled'] * 1000 / df['diameter_nm']
+
+# 2. 直径对数 (捕捉非线性效应)
+df['log_diameter'] = np.log10(df['diameter_nm'] + 1e-6)
+
+# 3. 层数分类 (SWCNT vs MWCNT)
+df['is_swcnn'] = (df['layers'] == 1).astype(int)
+
+# 4. 工艺复杂度 (CVD=1, 其他=0)
+df['is_cvd'] = df['method'].apply(lambda x: 1 if x == 'CVD' else 0)
+
+# 5. 温度归一化 (仅 CVD 样本，其他填 0)
+df['temp_normalized'] = (df['cvd_temperature_C'] / 1000.0).fillna(0)
+
+# 6. 催化剂存在性
+df['has_catalyst'] = df['catalyst'].notna().astype(int)
+
+# 7. 碳源存在性
+df['has_carbon_source'] = df['carbon_source'].notna().astype(int)
+
+# 8. 体积分数估算 (简化模型)
+df['volume_fraction_est'] = 1.0 / (df['diameter_nm'] ** 2) * df['layers']
+
+# 更新特征列表
+FEATURES_ENHANCED = FEATURES + [
+    'aspect_ratio',
+    'log_diameter',
+    'is_swcnn',
+    'is_cvd',
+    'temp_normalized',
+    'has_catalyst',
+    'has_carbon_source',
+    'volume_fraction_est'
+]
+
+print(f"  原始特征：{len(FEATURES)} 个")
+print(f"  增强特征：{len(FEATURES_ENHANCED)} 个 (+{len(FEATURES_ENHANCED) - len(FEATURES)})")
+
+# 再次清理 NaN（应该没有了，因为做了填充）
+df = df.dropna(subset=FEATURES_ENHANCED + [TARGET])
+print(f"  最终有效样本：{len(df)}")
+
+X = df[FEATURES_ENHANCED].values
 y = df[TARGET].values
 
 # 对数转换 (电导率跨越多个数量级)
@@ -108,7 +185,7 @@ print(f"  [OK] 标准化完成")
 print("\n[3/6] GP 模型训练...")
 
 # 核函数：RBF + WhiteKernel (适用于小数据集)
-kernel = ConstantKernel(1.0) * RBF(length_scale=[1.0] * len(FEATURES)) + WhiteKernel(0.1)
+kernel = ConstantKernel(1.0) * RBF(length_scale=[1.0] * len(FEATURES_ENHANCED)) + WhiteKernel(0.1)
 
 gp_model = GaussianProcessRegressor(
     kernel=kernel,
@@ -143,7 +220,7 @@ print(f"  RMSE = {rmse:.2e} S/m")
 # 交叉验证 (小数据集时更重要)
 if len(X_train) >= 5:
     cv_scores = cross_val_score(gp_model, X_train_scaled, y_train_scaled, cv=3)
-    print(f"  交叉验证 R²: {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
+    print(f"  Cross-val R2: {cv_scores.mean():.4f} +/- {cv_scores.std():.4f}")
 else:
     print(f"  [WARN] 样本过少，跳过交叉验证")
 
@@ -233,12 +310,12 @@ length_scales = gp_model.kernel_.k1.k2.length_scale
 importance = 1 / length_scales  # 长度尺度越小，特征越重要
 importance_norm = importance / importance.max()
 
-plt.figure(figsize=(10, 6), dpi=300)
-bars = plt.bar(FEATURES, importance_norm, color='steelblue', edgecolor='navy')
-plt.xlabel('特征', fontsize=12)
-plt.ylabel('相对重要性', fontsize=12)
-plt.title('CNT 电导率预测 - 特征重要性 (GP 长度尺度)', fontsize=14)
-plt.xticks(rotation=45)
+plt.figure(figsize=(12, 6), dpi=300)
+bars = plt.bar(FEATURES_ENHANCED, importance_norm, color='steelblue', edgecolor='navy')
+plt.xlabel('Feature', fontsize=12)
+plt.ylabel('Relative Importance', fontsize=12)
+plt.title('CNT Conductivity Prediction - Feature Importance', fontsize=14)
+plt.xticks(rotation=45, ha='right')
 plt.grid(True, alpha=0.3, axis='y')
 
 # 添加数值标签

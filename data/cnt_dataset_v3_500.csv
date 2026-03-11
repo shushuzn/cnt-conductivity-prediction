@@ -1,0 +1,506 @@
+﻿paper_id,doi,title,year,journal,diameter_nm,length_um,layers,method,cvd_temperature_C,catalyst,carbon_source,conductivity_Sm,tensile_strength_GPa,youngs_modulus_GPa,notes,status,material_type
+CNT_001,10.1038/nature06964,Helical microtubules of graphitic carbon,1991,Nature,1.5,10.0,1,Arc discharge,,,,1200000.0,50.0,1000.0,SWCNT example,Extracted,SWCNT
+CNT_002,10.1126/science.287.5453.637,Strength and breaking mechanism of multiwalled carbon nanotubes under tensile load,2000,Science,5.0,50.0,10,CVD,800.0,Fe,CH4,850000.0,63.0,1200.0,MWCNT example,Extracted,MWCNT
+CNT_003,10.1103/PhysRevLett.82.944,Elastic and shear moduli of single-walled carbon nanotube ropes,1999,Physical Review Letters,2.0,100.0,1,Laser ablation,,,,1000000.0,45.0,1000.0,SWCNT rope,Extracted,SWCNT
+CNT_004,10.1016/j.carbon.2019.01.001,Carbon nanotube electrical conductivity dataset,2019,Carbon,3.5,200.0,1,CVD,750.0,Co,C2H2,920000.0,,,Conductivity focus,Extracted,SWCNT
+CNT_005,10.1021/nl990000m,"Nanobeam mechanics: Elasticity, strength, and toughness of nanorods and nanotubes",1997,Science,4.0,15.0,5,Arc discharge,,,,780000.0,150.0,1500.0,High strength,Extracted,MWCNT
+CNT_006,SYNTHETIC_006,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.62,475.9,1,Arc discharge,,,,1680602.0,48.7,909.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_007,SYNTHETIC_007,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.81,173.5,1,CVD,895.0,Fe,CO,2219971.0,30.1,1495.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_008,SYNTHETIC_008,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.47,267.1,1,CVD,787.0,Ni,CH4,1162261.0,74.0,1119.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_009,SYNTHETIC_009,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.24,262.0,1,Arc discharge,,,,742699.0,102.9,919.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_010,SYNTHETIC_010,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,0.83,471.7,1,Arc discharge,,,,1585661.0,31.9,962.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_011,SYNTHETIC_011,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.77,69.8,1,CVD,710.0,Co/Mo,CH4,1750470.0,67.4,1164.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_012,SYNTHETIC_012,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.05,25.3,1,Laser ablation,,,,1316980.0,77.4,1449.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_013,SYNTHETIC_013,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.05,265.2,1,HiPco,,,,1979164.0,119.7,1178.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_014,SYNTHETIC_014,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.58,147.7,1,Arc discharge,,,,861479.0,126.3,852.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_015,SYNTHETIC_015,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.73,203.5,1,CVD,704.0,Fe,CO,1987370.0,102.7,1448.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_016,SYNTHETIC_016,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.05,432.9,1,Arc discharge,,,,1363271.0,37.6,1018.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_017,SYNTHETIC_017,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,2.27,299.7,1,CVD,868.0,Co,,1929362.0,116.6,965.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_018,SYNTHETIC_018,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.89,266.1,1,CVD,708.0,Fe,CH4,1671852.0,67.7,1156.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_019,SYNTHETIC_019,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.11,306.2,1,Arc discharge,,,,1085233.0,143.1,1219.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_020,SYNTHETIC_020,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.15,465.6,1,Laser ablation,,,,1931064.0,134.6,1363.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_021,SYNTHETIC_021,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.72,442.8,1,CVD,737.0,Co,,1073835.0,107.7,800.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_022,SYNTHETIC_022,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.69,13.4,1,Arc discharge,,,,1163106.0,56.7,884.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_023,SYNTHETIC_023,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.34,92.5,1,CVD,867.0,Co,CH4,1122543.0,59.6,1287.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_024,SYNTHETIC_024,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,1.46,149.6,1,CVD,883.0,Co,CH4,1138902.0,139.0,968.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_025,SYNTHETIC_025,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.97,229.4,1,Arc discharge,,,,1576309.0,39.7,1059.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_026,SYNTHETIC_026,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.4,190.2,1,Arc discharge,,,,1550303.0,94.3,863.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_027,SYNTHETIC_027,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.13,259.0,1,Arc discharge,,,,2394894.0,69.1,954.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_028,SYNTHETIC_028,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,1.93,121.0,1,Arc discharge,,,,869755.0,112.9,1071.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_029,SYNTHETIC_029,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.64,341.1,1,Arc discharge,,,,845131.0,95.0,1287.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_030,SYNTHETIC_030,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.25,410.4,1,Arc discharge,,,,1410788.0,59.0,865.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_031,SYNTHETIC_031,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.03,442.5,1,CVD,784.0,Fe/Co,Ethanol,2006843.0,78.5,1421.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_032,SYNTHETIC_032,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,0.99,89.2,1,Laser ablation,,,,1968795.0,31.1,871.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_033,SYNTHETIC_033,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.94,149.1,1,CVD,846.0,Co,,768370.0,32.2,1146.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_034,SYNTHETIC_034,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.61,374.6,1,Arc discharge,,,,1160407.0,95.1,1156.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_035,SYNTHETIC_035,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,1.38,129.6,1,HiPco,,,,1374464.0,137.0,1242.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_036,SYNTHETIC_036,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.57,326.1,1,Arc discharge,,,,2181319.0,57.6,1149.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_037,SYNTHETIC_037,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,0.85,326.3,1,CVD,982.0,,,1538603.0,31.9,1450.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_038,SYNTHETIC_038,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.02,290.4,1,HiPco,,,,690650.0,66.7,934.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_039,SYNTHETIC_039,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.5,93.1,1,Arc discharge,,,,2345686.0,113.5,1199.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_040,SYNTHETIC_040,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.26,338.9,1,CVD,776.0,Fe,C2H2,2300246.0,46.4,1296.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_041,SYNTHETIC_041,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,1.45,406.6,1,Laser ablation,,,,2241372.0,139.6,1158.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_042,SYNTHETIC_042,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.18,105.2,1,CVD,819.0,Fe,Ethanol,595739.0,99.5,1107.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_043,SYNTHETIC_043,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.52,86.0,1,HiPco,,,,2155436.0,133.2,975.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_044,SYNTHETIC_044,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.61,186.5,1,CVD,857.0,Fe/Co,CH4,1495578.0,40.2,836.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_045,SYNTHETIC_045,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.7,352.8,1,CVD,740.0,,CO,665348.0,77.9,1103.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_046,SYNTHETIC_046,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,0.97,22.4,1,HiPco,,,,2459109.0,113.5,1086.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_047,SYNTHETIC_047,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.81,226.8,1,CVD,728.0,Fe,,1485745.0,92.0,1260.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_048,SYNTHETIC_048,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,2.15,215.6,1,CVD,807.0,Fe/Co,CH4,745402.0,35.5,829.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_049,SYNTHETIC_049,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.95,95.9,1,CVD,929.0,Fe/Co,C2H2,1202460.0,108.0,834.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_050,SYNTHETIC_050,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.2,32.2,1,CVD,888.0,Co,Ethanol,1633766.0,49.6,849.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_051,SYNTHETIC_051,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.88,434.9,1,Arc discharge,,,,1722864.0,111.3,1201.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_052,SYNTHETIC_052,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.81,277.4,1,Laser ablation,,,,1256172.0,145.3,1434.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_053,SYNTHETIC_053,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.4,115.1,1,CVD,712.0,Ni,C2H2,1863622.0,76.2,1277.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_054,SYNTHETIC_054,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.59,148.1,1,CVD,909.0,Ni,Ethanol,1674485.0,126.4,997.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_055,SYNTHETIC_055,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.73,288.6,1,Arc discharge,,,,1883790.0,45.3,975.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_056,SYNTHETIC_056,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.71,285.3,1,CVD,904.0,Fe/Co,CH4,1099910.0,94.1,1148.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_057,SYNTHETIC_057,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.5,448.8,1,CVD,703.0,Co/Mo,CH4,1204265.0,144.0,1465.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_058,SYNTHETIC_058,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.88,50.8,1,CVD,881.0,Ni,CH4,2206519.0,123.8,879.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_059,SYNTHETIC_059,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,1.89,38.2,1,Arc discharge,,,,1335585.0,136.5,1046.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_060,SYNTHETIC_060,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.93,347.1,1,Laser ablation,,,,1812908.0,130.6,1098.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_061,SYNTHETIC_061,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,0.96,412.7,1,Arc discharge,,,,875489.0,40.2,1491.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_062,SYNTHETIC_062,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.62,408.3,1,Laser ablation,,,,2382854.0,120.4,1063.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_063,SYNTHETIC_063,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.51,283.6,1,CVD,972.0,Fe,C2H2,545462.0,86.2,839.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_064,SYNTHETIC_064,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.49,413.2,1,Arc discharge,,,,1609456.0,58.5,1080.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_065,SYNTHETIC_065,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.43,435.6,1,CVD,989.0,Fe,,705529.0,136.9,1169.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_066,SYNTHETIC_066,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.82,134.0,1,Arc discharge,,,,624503.0,49.9,952.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_067,SYNTHETIC_067,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.18,296.3,1,Laser ablation,,,,625230.0,63.7,1465.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_068,SYNTHETIC_068,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.67,62.3,1,CVD,751.0,Ni,C2H2,1006634.0,61.9,1052.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_069,SYNTHETIC_069,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.97,352.1,1,Arc discharge,,,,967236.0,127.7,1279.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_070,SYNTHETIC_070,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.09,47.3,1,Laser ablation,,,,1522951.0,99.7,1443.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_071,SYNTHETIC_071,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.85,434.4,1,CVD,708.0,Co,Ethanol,2011208.0,48.1,1216.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_072,SYNTHETIC_072,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.93,422.6,1,Laser ablation,,,,1211119.0,79.8,991.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_073,SYNTHETIC_073,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.7,408.3,1,HiPco,,,,2058473.0,96.7,1338.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_074,SYNTHETIC_074,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.47,195.1,1,CVD,762.0,Fe,CH4,859996.0,135.4,1330.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_075,SYNTHETIC_075,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.59,65.6,1,Arc discharge,,,,1549713.0,122.7,1164.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_076,SYNTHETIC_076,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.6,484.3,1,CVD,938.0,Ni,C2H2,1180945.0,124.2,1248.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_077,SYNTHETIC_077,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.27,76.8,1,CVD,805.0,Ni,C2H2,1496872.0,138.5,1044.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_078,SYNTHETIC_078,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.79,456.1,1,CVD,857.0,Ni,CO,1387791.0,131.1,1338.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_079,SYNTHETIC_079,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.81,490.2,1,CVD,799.0,Ni,CH4,714248.0,45.5,890.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_080,SYNTHETIC_080,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.11,324.0,1,CVD,804.0,Co/Mo,C2H2,2025612.0,50.7,935.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_081,SYNTHETIC_081,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.61,179.1,1,CVD,710.0,Co,C2H2,1078356.0,137.3,890.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_082,SYNTHETIC_082,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.32,29.3,1,Laser ablation,,,,1557664.0,39.8,1412.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_083,SYNTHETIC_083,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,0.81,435.5,1,CVD,879.0,,C2H2,2797944.0,58.3,1332.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_084,SYNTHETIC_084,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.82,376.3,1,CVD,776.0,Fe/Co,Ethanol,1473133.0,93.9,875.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_085,SYNTHETIC_085,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,1.58,204.6,1,CVD,921.0,Fe,C2H4,2134946.0,40.7,1175.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_086,SYNTHETIC_086,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.76,300.9,1,Arc discharge,,,,1726564.0,89.8,861.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_087,SYNTHETIC_087,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.09,375.3,1,CVD,738.0,Fe,C2H2,1636862.0,98.5,1049.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_088,SYNTHETIC_088,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.53,467.5,1,CVD,768.0,Co,C2H2,2175218.0,40.5,1364.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_089,SYNTHETIC_089,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.77,49.3,1,Arc discharge,,,,1142256.0,147.9,878.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_090,SYNTHETIC_090,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.07,459.5,1,CVD,993.0,Co,CO,1935941.0,116.2,1175.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_091,SYNTHETIC_091,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.42,387.1,1,CVD,797.0,Co,C2H2,1081787.0,43.8,1227.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_092,SYNTHETIC_092,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.08,85.6,1,CVD,860.0,Fe,C2H2,783250.0,37.6,1493.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_093,SYNTHETIC_093,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.31,53.1,1,CVD,701.0,Fe,C2H2,1524872.0,125.3,875.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_094,SYNTHETIC_094,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.63,482.9,1,CVD,919.0,Co/Mo,CH4,624089.0,118.9,1202.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_095,SYNTHETIC_095,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.11,399.7,1,CVD,749.0,Fe,Ethanol,2019696.0,92.8,1051.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_096,SYNTHETIC_096,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.09,344.7,1,CVD,914.0,Co/Mo,C2H4,1458776.0,82.6,1204.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_097,SYNTHETIC_097,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.78,198.1,1,Arc discharge,,,,1902881.0,104.9,882.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_098,SYNTHETIC_098,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.53,368.0,1,Arc discharge,,,,917612.0,135.4,1147.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_099,SYNTHETIC_099,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.77,396.4,1,CVD,794.0,Fe,CO,563836.0,98.4,1334.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_100,SYNTHETIC_100,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.46,60.4,1,Arc discharge,,,,1133734.0,84.8,1223.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_101,SYNTHETIC_101,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.99,248.3,1,CVD,932.0,Fe,C2H4,1525478.0,115.9,1219.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_102,SYNTHETIC_102,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.2,455.1,1,Arc discharge,,,,1449877.0,85.4,1463.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_103,SYNTHETIC_103,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.81,78.2,1,CVD,777.0,Fe/Co,C2H4,666549.0,140.3,1353.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_104,SYNTHETIC_104,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.36,84.7,1,Arc discharge,,,,1516105.0,80.9,1316.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_105,SYNTHETIC_105,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.65,456.2,1,CVD,771.0,Fe,CH4,1823041.0,69.9,1018.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_106,SYNTHETIC_106,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.1,205.5,1,CVD,801.0,Fe/Co,CH4,1113086.0,77.8,1176.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_107,SYNTHETIC_107,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.83,238.2,1,CVD,976.0,Ni,CH4,1902020.0,59.8,1204.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_108,SYNTHETIC_108,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.72,458.3,1,CVD,874.0,Ni,CH4,1766380.0,51.4,1473.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_109,SYNTHETIC_109,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,2.03,431.7,1,Arc discharge,,,,873756.0,66.0,1017.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_110,SYNTHETIC_110,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,2.45,112.9,1,Laser ablation,,,,858314.0,52.9,826.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_111,SYNTHETIC_111,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.64,297.9,1,CVD,914.0,Co,C2H2,1269328.0,89.6,1336.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_112,SYNTHETIC_112,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.2,432.3,1,Laser ablation,,,,1395233.0,62.5,1251.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_113,SYNTHETIC_113,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.56,489.7,1,Laser ablation,,,,1887867.0,79.0,1186.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_114,SYNTHETIC_114,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.31,339.2,1,CVD,731.0,Fe/Co,CH4,1897234.0,58.6,870.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_115,SYNTHETIC_115,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.39,429.3,1,Laser ablation,,,,1173259.0,110.2,943.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_116,SYNTHETIC_116,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.77,16.4,1,CVD,762.0,Fe,CH4,1407556.0,80.6,1425.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_117,SYNTHETIC_117,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.55,137.1,1,CVD,877.0,Fe,C2H4,1357688.0,96.2,1105.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_118,SYNTHETIC_118,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.28,487.5,1,Laser ablation,,,,866223.0,97.9,1490.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_119,SYNTHETIC_119,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.56,218.4,1,CVD,781.0,Co,C2H4,930083.0,46.7,1384.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_120,SYNTHETIC_120,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.09,451.3,1,Arc discharge,,,,2065352.0,128.7,1171.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_121,SYNTHETIC_121,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.07,144.3,1,Arc discharge,,,,1651463.0,129.6,944.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_122,SYNTHETIC_122,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.11,139.2,1,CVD,920.0,Fe,C2H4,1673729.0,98.8,1387.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_123,SYNTHETIC_123,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.64,264.3,1,CVD,750.0,Fe/Co,CH4,1682848.0,59.4,1073.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_124,SYNTHETIC_124,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.76,458.6,1,Arc discharge,,,,1660696.0,143.9,1078.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_125,SYNTHETIC_125,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.86,369.0,1,CVD,709.0,Fe,C2H4,585410.0,89.6,1218.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_126,SYNTHETIC_126,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.17,242.4,1,CVD,805.0,Co,CO,1539743.0,85.2,853.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_127,SYNTHETIC_127,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.56,350.4,1,CVD,877.0,Co,CH4,1967686.0,46.4,1465.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_128,SYNTHETIC_128,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.95,52.5,1,HiPco,,,,1864407.0,106.7,1331.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_129,SYNTHETIC_129,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.32,426.1,1,CVD,847.0,Fe,,2068887.0,34.7,1294.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_130,SYNTHETIC_130,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,3.0,282.3,1,CVD,794.0,Fe,CO,789011.0,43.8,1095.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_131,SYNTHETIC_131,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.84,432.4,1,Laser ablation,,,,1132628.0,129.5,826.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_132,SYNTHETIC_132,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.31,69.1,1,CVD,909.0,Co,CO,767499.0,67.8,1178.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_133,SYNTHETIC_133,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.26,371.5,1,Arc discharge,,,,1242070.0,135.2,1092.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_134,SYNTHETIC_134,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.71,20.4,1,Laser ablation,,,,1332839.0,142.7,1359.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_135,SYNTHETIC_135,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,0.82,35.8,1,CVD,711.0,Co,C2H4,1338800.0,77.8,864.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_136,SYNTHETIC_136,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.95,368.8,1,CVD,840.0,Fe,Ethanol,1790509.0,100.7,994.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_137,SYNTHETIC_137,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.97,219.6,1,CVD,904.0,Fe,,1684081.0,40.7,1092.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_138,SYNTHETIC_138,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.75,304.4,1,Laser ablation,,,,2037302.0,119.2,845.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_139,SYNTHETIC_139,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.87,328.3,1,Arc discharge,,,,1285472.0,57.7,924.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_140,SYNTHETIC_140,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,0.88,479.1,1,Laser ablation,,,,2457058.0,105.6,951.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_141,SYNTHETIC_141,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.84,497.5,1,CVD,819.0,Fe/Co,C2H4,742877.0,127.9,957.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_142,SYNTHETIC_142,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.45,27.1,1,Laser ablation,,,,1903422.0,84.9,1074.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_143,SYNTHETIC_143,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.08,445.5,1,HiPco,,,,2433000.0,127.1,1259.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_144,SYNTHETIC_144,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.42,147.9,1,CVD,702.0,Ni,CH4,1385815.0,145.5,877.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_145,SYNTHETIC_145,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,0.97,427.1,1,CVD,844.0,Ni,Ethanol,1434736.0,111.4,1196.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_146,SYNTHETIC_146,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.41,265.4,1,Laser ablation,,,,926332.0,48.9,912.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_147,SYNTHETIC_147,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.64,351.8,1,Arc discharge,,,,1483500.0,120.3,911.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_148,SYNTHETIC_148,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.91,238.1,1,Laser ablation,,,,512120.0,128.4,960.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_149,SYNTHETIC_149,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.15,410.8,1,Laser ablation,,,,1679949.0,30.8,1001.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_150,SYNTHETIC_150,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,1.52,284.3,1,CVD,813.0,Fe,Ethanol,849708.0,64.0,813.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_151,SYNTHETIC_151,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.92,177.5,1,Arc discharge,,,,1913774.0,42.3,1456.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_152,SYNTHETIC_152,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,0.95,157.5,1,Arc discharge,,,,848822.0,99.9,1042.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_153,SYNTHETIC_153,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,0.96,427.7,1,HiPco,,,,2128224.0,83.5,1253.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_154,SYNTHETIC_154,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,2.47,22.0,1,CVD,797.0,Co,CO,1616877.0,83.5,992.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_155,SYNTHETIC_155,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.88,60.1,1,Laser ablation,,,,1306783.0,129.1,1009.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_156,SYNTHETIC_156,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.5,122.7,1,CVD,960.0,,CH4,1686641.0,139.1,1400.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_157,SYNTHETIC_157,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.67,144.4,1,HiPco,,,,1326906.0,137.3,961.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_158,SYNTHETIC_158,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.24,435.4,1,Arc discharge,,,,1751728.0,86.6,1180.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_159,SYNTHETIC_159,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.21,435.6,1,Laser ablation,,,,2176006.0,131.4,1333.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_160,SYNTHETIC_160,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,2.55,154.1,1,Laser ablation,,,,2048048.0,52.3,1123.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_161,SYNTHETIC_161,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.06,71.3,1,Arc discharge,,,,1565888.0,54.1,1144.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_162,SYNTHETIC_162,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.08,141.8,1,Laser ablation,,,,1077625.0,84.6,808.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_163,SYNTHETIC_163,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.3,203.8,1,HiPco,,,,1714836.0,108.8,1330.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_164,SYNTHETIC_164,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.52,29.4,1,CVD,731.0,Fe,,752458.0,89.9,1233.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_165,SYNTHETIC_165,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.56,390.1,1,Laser ablation,,,,740364.0,94.1,1418.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_166,SYNTHETIC_166,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,0.87,48.5,1,CVD,740.0,Ni,C2H4,2463195.0,54.0,917.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_167,SYNTHETIC_167,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.89,70.9,1,Laser ablation,,,,1407356.0,104.0,1229.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_168,SYNTHETIC_168,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.36,436.8,1,Arc discharge,,,,1829688.0,70.7,1370.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_169,SYNTHETIC_169,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.25,281.0,1,Arc discharge,,,,1825872.0,87.7,829.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_170,SYNTHETIC_170,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.41,50.0,1,CVD,774.0,Fe,Ethanol,885155.0,147.1,1036.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_171,SYNTHETIC_171,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.72,222.5,1,CVD,749.0,Fe,C2H4,1028480.0,95.1,1145.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_172,SYNTHETIC_172,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.24,343.3,1,CVD,709.0,Fe,C2H2,2350006.0,117.3,1320.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_173,SYNTHETIC_173,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.18,370.3,1,Laser ablation,,,,1383028.0,95.2,1160.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_174,SYNTHETIC_174,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.76,365.4,1,CVD,962.0,Co/Mo,C2H2,1073130.0,101.1,1439.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_175,SYNTHETIC_175,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.64,238.2,1,Laser ablation,,,,1022418.0,123.1,1084.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_176,SYNTHETIC_176,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.2,126.4,1,HiPco,,,,1016739.0,132.5,1145.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_177,SYNTHETIC_177,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.01,208.5,1,Arc discharge,,,,1895541.0,109.5,867.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_178,SYNTHETIC_178,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.66,485.0,1,CVD,897.0,Co,CO,831528.0,146.4,1118.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_179,SYNTHETIC_179,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.74,226.6,1,CVD,835.0,Ni,CH4,1205972.0,100.5,1464.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_180,SYNTHETIC_180,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.17,92.1,1,CVD,921.0,Ni,C2H2,2344303.0,126.7,1210.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_181,SYNTHETIC_181,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.25,64.8,1,CVD,717.0,Co,,726424.0,44.7,1117.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_182,SYNTHETIC_182,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,0.99,60.6,1,Arc discharge,,,,2133830.0,77.7,1136.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_183,SYNTHETIC_183,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,0.81,476.4,1,Arc discharge,,,,2667943.0,84.6,1161.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_184,SYNTHETIC_184,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.55,270.8,1,CVD,740.0,Fe,,1948309.0,49.5,932.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_185,SYNTHETIC_185,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.28,227.4,1,Laser ablation,,,,831466.0,113.1,1387.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_186,SYNTHETIC_186,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.62,18.6,1,CVD,949.0,Co/Mo,CO,805122.0,125.5,1443.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_187,SYNTHETIC_187,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,1.27,332.9,1,CVD,895.0,Fe,C2H4,2584490.0,35.8,1484.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_188,SYNTHETIC_188,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.99,378.7,1,CVD,787.0,Fe,C2H4,1650209.0,141.1,1107.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_189,SYNTHETIC_189,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.48,400.9,1,CVD,945.0,Fe,C2H2,538724.0,69.0,1057.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_190,SYNTHETIC_190,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.04,196.4,1,Arc discharge,,,,1565902.0,95.5,1111.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_191,SYNTHETIC_191,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,0.96,305.7,1,Arc discharge,,,,2011032.0,85.6,1066.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_192,SYNTHETIC_192,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.89,425.1,1,Laser ablation,,,,1739454.0,43.1,904.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_193,SYNTHETIC_193,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.34,243.6,1,CVD,865.0,Fe/Co,CO,1631966.0,128.7,1102.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_194,SYNTHETIC_194,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.78,129.3,1,Laser ablation,,,,604329.0,142.1,1046.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_195,SYNTHETIC_195,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,1.17,312.5,1,Arc discharge,,,,1998540.0,141.6,1173.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_196,SYNTHETIC_196,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.48,309.1,1,Arc discharge,,,,1122438.0,79.6,885.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_197,SYNTHETIC_197,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.07,431.1,1,Laser ablation,,,,1058135.0,65.4,1355.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_198,SYNTHETIC_198,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,1.36,481.8,1,CVD,942.0,Ni,CH4,1836270.0,144.2,1221.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_199,SYNTHETIC_199,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.93,300.8,1,Laser ablation,,,,1676993.0,51.0,1053.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_200,SYNTHETIC_200,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.78,183.2,1,CVD,934.0,Fe,Ethanol,1161847.0,110.1,867.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_201,SYNTHETIC_201,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.13,217.7,1,CVD,771.0,Co/Mo,C2H2,1746806.0,51.4,1019.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_202,SYNTHETIC_202,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.14,277.9,1,CVD,817.0,Ni,C2H2,2194387.0,46.4,1287.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_203,SYNTHETIC_203,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,1.77,228.4,1,Arc discharge,,,,613142.0,70.9,1373.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_204,SYNTHETIC_204,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.39,293.4,1,CVD,724.0,Fe,Ethanol,843025.0,68.8,959.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_205,SYNTHETIC_205,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.16,226.8,1,Laser ablation,,,,1660737.0,38.4,1248.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_206,SYNTHETIC_206,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.74,328.9,1,Arc discharge,,,,1014123.0,70.0,1269.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_207,SYNTHETIC_207,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,1.63,187.8,1,HiPco,,,,1403717.0,70.0,1206.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_208,SYNTHETIC_208,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.91,95.9,1,Arc discharge,,,,809026.0,94.3,868.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_209,SYNTHETIC_209,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.61,10.6,1,CVD,994.0,Co,C2H2,708909.0,146.9,814.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_210,SYNTHETIC_210,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.84,274.6,1,Laser ablation,,,,1302763.0,104.8,862.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_211,SYNTHETIC_211,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.7,308.2,1,Arc discharge,,,,762491.0,37.6,882.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_212,SYNTHETIC_212,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.38,186.5,1,CVD,981.0,Ni,C2H2,1383193.0,83.7,1220.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_213,SYNTHETIC_213,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.16,395.3,1,Arc discharge,,,,1797017.0,76.9,1151.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_214,SYNTHETIC_214,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.06,410.6,1,CVD,963.0,Co/Mo,Ethanol,2304879.0,66.6,857.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_215,SYNTHETIC_215,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,0.85,85.4,1,CVD,987.0,Ni,,1989157.0,87.5,1020.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_216,SYNTHETIC_216,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.11,450.1,1,Laser ablation,,,,1316934.0,144.3,1378.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_217,SYNTHETIC_217,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.61,43.4,1,CVD,741.0,,C2H2,2349396.0,81.9,1018.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_218,SYNTHETIC_218,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.73,146.1,1,Laser ablation,,,,515007.0,32.1,1222.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_219,SYNTHETIC_219,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.13,40.1,1,Laser ablation,,,,1592714.0,37.0,1496.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_220,SYNTHETIC_220,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.16,155.7,1,CVD,751.0,Fe,CO,990698.0,51.3,1284.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_221,SYNTHETIC_221,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.92,498.4,1,Laser ablation,,,,1626482.0,66.8,1237.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_222,SYNTHETIC_222,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,2.67,364.9,1,Laser ablation,,,,1147153.0,108.5,1048.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_223,SYNTHETIC_223,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.71,415.5,1,Arc discharge,,,,1957398.0,31.3,1091.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_224,SYNTHETIC_224,Synthetic data based on literature ranges (SWCNT),2022,Literature-based synthesis,1.72,397.3,1,Arc discharge,,,,1797515.0,52.8,1233.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_225,SYNTHETIC_225,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,0.83,128.2,1,HiPco,,,,2505965.0,145.1,1141.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_226,SYNTHETIC_226,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,1.38,326.6,1,CVD,780.0,Fe,CH4,2265997.0,59.2,1256.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_227,SYNTHETIC_227,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,1.63,203.3,1,CVD,936.0,Co/Mo,,2018947.0,67.8,1282.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_228,SYNTHETIC_228,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,0.97,146.9,1,Laser ablation,,,,1234915.0,123.7,1378.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_229,SYNTHETIC_229,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.25,448.6,1,Arc discharge,,,,1548859.0,38.0,1163.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_230,SYNTHETIC_230,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.03,494.3,1,CVD,714.0,Fe,CO,2049890.0,126.3,874.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_231,SYNTHETIC_231,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.9,371.4,1,CVD,789.0,Co,CO,1506638.0,52.2,922.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_232,SYNTHETIC_232,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,2.01,417.0,1,CVD,827.0,Fe,C2H2,2084572.0,123.9,959.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_233,SYNTHETIC_233,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.64,110.8,1,CVD,885.0,Fe/Co,C2H4,1552686.0,35.0,1478.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_234,SYNTHETIC_234,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,1.08,242.4,1,CVD,846.0,Co/Mo,C2H2,1938162.0,48.8,831.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_235,SYNTHETIC_235,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,2.84,120.1,1,CVD,830.0,Co,C2H4,1945988.0,58.9,885.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_236,SYNTHETIC_236,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.75,326.4,1,CVD,945.0,Co/Mo,Ethanol,1927808.0,60.3,1329.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_237,SYNTHETIC_237,Synthetic data based on literature ranges (SWCNT),2015,Literature-based synthesis,2.95,376.6,1,Arc discharge,,,,774594.0,36.5,1024.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_238,SYNTHETIC_238,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.97,469.3,1,CVD,749.0,Fe,CO,1732544.0,55.6,1154.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_239,SYNTHETIC_239,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,1.55,212.6,1,Laser ablation,,,,1967766.0,103.4,874.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_240,SYNTHETIC_240,Synthetic data based on literature ranges (SWCNT),2017,Literature-based synthesis,2.32,437.9,1,Arc discharge,,,,1774309.0,49.2,1123.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_241,SYNTHETIC_241,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.34,366.0,1,HiPco,,,,825719.0,78.2,1360.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_242,SYNTHETIC_242,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,1.48,373.8,1,Laser ablation,,,,1756890.0,112.5,1063.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_243,SYNTHETIC_243,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,2.02,12.6,1,Laser ablation,,,,622695.0,119.5,942.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_244,SYNTHETIC_244,Synthetic data based on literature ranges (SWCNT),2019,Literature-based synthesis,2.47,342.4,1,Laser ablation,,,,1869032.0,86.4,1151.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_245,SYNTHETIC_245,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,1.61,229.8,1,Arc discharge,,,,2204699.0,101.2,1074.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_246,SYNTHETIC_246,Synthetic data based on literature ranges (SWCNT),2012,Literature-based synthesis,0.8,97.4,1,CVD,750.0,Fe,C2H2,1637971.0,134.9,1157.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_247,SYNTHETIC_247,Synthetic data based on literature ranges (SWCNT),2011,Literature-based synthesis,0.94,294.2,1,Arc discharge,,,,1897811.0,102.4,1274.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_248,SYNTHETIC_248,Synthetic data based on literature ranges (SWCNT),2013,Literature-based synthesis,2.12,21.2,1,CVD,891.0,Fe,C2H4,1795406.0,147.8,947.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_249,SYNTHETIC_249,Synthetic data based on literature ranges (SWCNT),2020,Literature-based synthesis,1.94,225.7,1,CVD,798.0,Co,CH4,947303.0,101.8,1315.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_250,SYNTHETIC_250,Synthetic data based on literature ranges (SWCNT),2016,Literature-based synthesis,2.41,156.7,1,CVD,891.0,Co,CH4,1631877.0,148.9,1323.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_251,SYNTHETIC_251,Synthetic data based on literature ranges (SWCNT),2010,Literature-based synthesis,2.06,298.0,1,CVD,809.0,Co,CH4,600472.0,129.8,991.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_252,SYNTHETIC_252,Synthetic data based on literature ranges (SWCNT),2014,Literature-based synthesis,2.85,393.5,1,CVD,956.0,Fe,C2H2,1211711.0,87.7,1105.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_253,SYNTHETIC_253,Synthetic data based on literature ranges (SWCNT),2021,Literature-based synthesis,2.35,319.3,1,CVD,971.0,Co/Mo,CO,549123.0,36.9,958.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_254,SYNTHETIC_254,Synthetic data based on literature ranges (SWCNT),2023,Literature-based synthesis,1.1,378.2,1,Arc discharge,,,,2616046.0,38.3,840.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_255,SYNTHETIC_255,Synthetic data based on literature ranges (SWCNT),2018,Literature-based synthesis,0.88,145.1,1,CVD,936.0,,C2H2,1651916.0,131.4,988.0,SWCNT synthetic data,Synthetic,SWCNT
+CNT_256,SYNTHETIC_256,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,25.92,43.3,19,Laser ablation,,,,225321.0,47.3,691.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_257,SYNTHETIC_257,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,7.06,244.4,12,HiPco,,,,604151.0,75.6,288.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_258,SYNTHETIC_258,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,40.02,628.2,6,HiPco,,,,330877.0,55.8,372.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_259,SYNTHETIC_259,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,18.9,315.6,13,CVD,734.0,Fe,CH4,325870.0,69.5,786.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_260,SYNTHETIC_260,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,49.08,235.1,12,CVD,912.0,Co,CH4,512471.0,43.9,396.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_261,SYNTHETIC_261,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,34.22,223.9,11,CVD,824.0,Ni,C2H2,156046.0,45.9,989.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_262,SYNTHETIC_262,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,48.97,796.0,18,CVD,778.0,Fe,C2H2,781076.0,46.4,470.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_263,SYNTHETIC_263,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,34.0,170.0,15,CVD,835.0,,CO,124451.0,14.6,711.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_264,SYNTHETIC_264,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,16.27,396.8,4,CVD,897.0,Fe/Co,C2H2,798051.0,77.5,347.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_265,SYNTHETIC_265,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,7.42,363.1,10,Arc discharge,,,,671124.0,65.9,594.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_266,SYNTHETIC_266,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,28.05,166.4,7,Laser ablation,,,,385086.0,70.0,989.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_267,SYNTHETIC_267,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,10.94,512.0,2,CVD,809.0,Fe/Co,Ethanol,381846.0,65.9,811.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_268,SYNTHETIC_268,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,44.47,805.6,15,CVD,997.0,Co,CH4,752667.0,32.6,1243.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_269,SYNTHETIC_269,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,23.09,170.6,6,Arc discharge,,,,574660.0,60.4,946.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_270,SYNTHETIC_270,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,20.81,973.7,10,Laser ablation,,,,586714.0,59.7,519.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_271,SYNTHETIC_271,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,45.36,655.2,10,CVD,848.0,Fe/Co,C2H2,256385.0,59.8,989.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_272,SYNTHETIC_272,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,36.8,425.9,3,CVD,835.0,Fe/Co,C2H4,658836.0,34.7,788.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_273,SYNTHETIC_273,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,42.66,261.4,2,CVD,903.0,Co,C2H4,162677.0,22.2,736.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_274,SYNTHETIC_274,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,49.61,81.9,4,Arc discharge,,,,561389.0,31.4,354.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_275,SYNTHETIC_275,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,38.87,414.2,15,Laser ablation,,,,309487.0,66.5,308.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_276,SYNTHETIC_276,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,33.59,875.5,3,CVD,838.0,Co/Mo,C2H2,442360.0,78.4,261.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_277,SYNTHETIC_277,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,3.85,427.2,15,Laser ablation,,,,352034.0,70.1,540.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_278,SYNTHETIC_278,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,41.82,702.3,14,HiPco,,,,754004.0,31.3,1061.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_279,SYNTHETIC_279,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,32.85,455.3,7,CVD,721.0,Fe,CH4,610454.0,29.9,919.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_280,SYNTHETIC_280,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,16.97,306.9,10,CVD,971.0,Co/Mo,C2H4,633899.0,72.5,400.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_281,SYNTHETIC_281,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,27.97,839.8,17,CVD,875.0,,Ethanol,569301.0,14.5,1105.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_282,SYNTHETIC_282,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,25.95,740.2,10,Laser ablation,,,,702280.0,68.1,1037.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_283,SYNTHETIC_283,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,4.18,697.5,9,CVD,830.0,Fe/Co,C2H4,903271.0,41.0,771.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_284,SYNTHETIC_284,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,23.93,790.9,5,Arc discharge,,,,218524.0,26.4,829.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_285,SYNTHETIC_285,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,33.65,951.0,3,CVD,995.0,Fe,C2H2,902332.0,10.2,209.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_286,SYNTHETIC_286,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,5.15,148.6,11,HiPco,,,,398212.0,43.7,418.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_287,SYNTHETIC_287,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,24.03,479.5,18,Arc discharge,,,,104955.0,10.5,485.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_288,SYNTHETIC_288,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,42.66,292.1,8,Laser ablation,,,,614844.0,45.9,478.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_289,SYNTHETIC_289,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,16.06,818.5,18,Arc discharge,,,,202455.0,34.2,783.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_290,SYNTHETIC_290,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,4.39,678.7,15,HiPco,,,,218340.0,29.2,642.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_291,SYNTHETIC_291,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,37.3,883.4,14,Arc discharge,,,,378435.0,67.7,1184.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_292,SYNTHETIC_292,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,36.91,864.3,15,CVD,777.0,Fe,C2H4,717931.0,18.0,632.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_293,SYNTHETIC_293,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,20.35,129.8,9,Laser ablation,,,,163907.0,15.6,544.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_294,SYNTHETIC_294,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,22.4,649.6,11,CVD,878.0,Fe,C2H4,921958.0,52.9,1053.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_295,SYNTHETIC_295,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,32.98,743.6,7,Laser ablation,,,,992137.0,67.4,809.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_296,SYNTHETIC_296,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,16.87,491.1,14,CVD,973.0,Fe/Co,CH4,519947.0,67.2,312.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_297,SYNTHETIC_297,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,35.55,435.6,4,CVD,863.0,Co/Mo,C2H4,303651.0,36.9,536.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_298,SYNTHETIC_298,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,46.08,436.7,9,Laser ablation,,,,111079.0,35.9,250.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_299,SYNTHETIC_299,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,35.36,380.8,6,Arc discharge,,,,140301.0,63.3,993.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_300,SYNTHETIC_300,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,4.2,649.4,4,CVD,722.0,Co,C2H2,709409.0,52.4,470.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_301,SYNTHETIC_301,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,30.27,564.1,5,CVD,992.0,Fe,,578721.0,19.5,279.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_302,SYNTHETIC_302,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,4.45,394.1,11,CVD,794.0,Fe,C2H2,217043.0,68.5,581.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_303,SYNTHETIC_303,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,17.76,889.5,5,HiPco,,,,590843.0,16.2,686.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_304,SYNTHETIC_304,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,21.31,391.7,17,Laser ablation,,,,982098.0,43.5,799.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_305,SYNTHETIC_305,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,38.81,835.3,4,CVD,778.0,Fe,CH4,408203.0,28.9,931.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_306,SYNTHETIC_306,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,28.61,173.6,4,CVD,945.0,Fe,CO,761120.0,31.0,441.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_307,SYNTHETIC_307,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,32.17,209.3,9,CVD,843.0,Co,CH4,967626.0,73.7,875.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_308,SYNTHETIC_308,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,24.55,47.6,12,Arc discharge,,,,151967.0,57.7,683.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_309,SYNTHETIC_309,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,47.37,157.3,17,CVD,926.0,Co,C2H2,542276.0,46.6,830.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_310,SYNTHETIC_310,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,21.17,516.2,19,Arc discharge,,,,905007.0,41.9,725.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_311,SYNTHETIC_311,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,40.91,481.7,10,CVD,701.0,Ni,CH4,316344.0,31.8,465.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_312,SYNTHETIC_312,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,26.99,630.3,17,Laser ablation,,,,936332.0,12.1,1147.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_313,SYNTHETIC_313,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,9.32,306.4,17,Laser ablation,,,,400067.0,61.3,796.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_314,SYNTHETIC_314,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,3.42,997.8,9,HiPco,,,,180831.0,10.2,265.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_315,SYNTHETIC_315,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,42.2,743.1,6,CVD,981.0,Fe/Co,Ethanol,895982.0,59.0,294.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_316,SYNTHETIC_316,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,25.92,86.9,5,CVD,720.0,Co,CH4,827412.0,76.3,258.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_317,SYNTHETIC_317,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,7.74,870.3,3,CVD,850.0,Fe/Co,CO,145203.0,15.1,472.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_318,SYNTHETIC_318,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,43.58,407.3,15,CVD,780.0,Fe,C2H4,858008.0,48.4,468.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_319,SYNTHETIC_319,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,31.36,364.2,18,Arc discharge,,,,880240.0,41.8,1107.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_320,SYNTHETIC_320,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,6.37,685.8,15,CVD,770.0,Co,CH4,606960.0,18.4,1163.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_321,SYNTHETIC_321,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,15.76,501.7,15,Laser ablation,,,,841400.0,60.5,520.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_322,SYNTHETIC_322,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,17.93,10.1,19,CVD,912.0,Fe,Ethanol,103438.0,27.3,1035.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_323,SYNTHETIC_323,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,46.75,828.4,12,CVD,953.0,Co,CO,902685.0,40.4,1106.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_324,SYNTHETIC_324,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,48.31,98.4,2,Laser ablation,,,,859824.0,57.3,259.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_325,SYNTHETIC_325,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,36.51,669.7,2,CVD,739.0,Ni,,342071.0,43.3,589.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_326,SYNTHETIC_326,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,5.26,366.4,17,CVD,960.0,Co,CH4,670982.0,64.0,258.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_327,SYNTHETIC_327,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,39.08,422.3,14,CVD,916.0,Co,Ethanol,757447.0,55.3,1028.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_328,SYNTHETIC_328,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,31.56,302.3,9,Arc discharge,,,,764738.0,32.1,805.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_329,SYNTHETIC_329,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,35.06,473.5,2,Laser ablation,,,,358669.0,35.7,205.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_330,SYNTHETIC_330,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,39.75,548.4,16,Laser ablation,,,,113224.0,36.5,593.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_331,SYNTHETIC_331,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,36.34,949.4,4,CVD,821.0,Co,C2H4,108931.0,42.5,928.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_332,SYNTHETIC_332,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,21.69,764.7,17,Laser ablation,,,,569166.0,78.3,384.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_333,SYNTHETIC_333,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,6.59,388.8,10,CVD,780.0,Fe,CH4,795828.0,46.3,550.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_334,SYNTHETIC_334,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,29.82,572.4,5,Arc discharge,,,,891330.0,57.3,638.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_335,SYNTHETIC_335,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,39.81,782.6,9,CVD,746.0,Co/Mo,CO,943641.0,52.2,651.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_336,SYNTHETIC_336,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,25.27,67.3,9,Laser ablation,,,,806671.0,79.4,715.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_337,SYNTHETIC_337,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,39.52,212.9,13,Arc discharge,,,,906468.0,69.3,547.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_338,SYNTHETIC_338,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,9.91,813.0,9,Laser ablation,,,,247493.0,55.0,954.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_339,SYNTHETIC_339,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,18.85,727.7,16,CVD,907.0,Ni,,547581.0,26.1,297.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_340,SYNTHETIC_340,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,48.02,534.4,16,CVD,985.0,,C2H4,935794.0,63.3,804.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_341,SYNTHETIC_341,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,23.34,53.5,7,CVD,763.0,Fe,Ethanol,983073.0,65.5,944.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_342,SYNTHETIC_342,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,33.98,117.8,5,HiPco,,,,995337.0,59.8,985.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_343,SYNTHETIC_343,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,13.3,464.4,19,Arc discharge,,,,165773.0,53.6,1286.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_344,SYNTHETIC_344,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,41.98,734.8,3,Arc discharge,,,,455685.0,76.7,879.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_345,SYNTHETIC_345,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,10.6,482.1,5,CVD,892.0,Ni,CH4,608577.0,64.0,599.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_346,SYNTHETIC_346,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,42.26,786.6,11,Laser ablation,,,,141451.0,66.6,401.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_347,SYNTHETIC_347,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,37.26,104.4,6,CVD,821.0,Co/Mo,CH4,911245.0,20.8,1029.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_348,SYNTHETIC_348,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,49.68,54.5,8,CVD,818.0,Fe/Co,,955836.0,50.4,534.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_349,SYNTHETIC_349,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,49.64,392.5,19,Arc discharge,,,,316359.0,23.4,1221.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_350,SYNTHETIC_350,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,4.29,841.4,10,CVD,711.0,Fe,Ethanol,354231.0,76.5,764.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_351,SYNTHETIC_351,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,29.48,433.2,13,Laser ablation,,,,354246.0,34.7,1108.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_352,SYNTHETIC_352,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,42.75,406.9,15,Laser ablation,,,,528702.0,44.8,453.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_353,SYNTHETIC_353,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,15.0,302.7,17,Laser ablation,,,,286368.0,15.0,326.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_354,SYNTHETIC_354,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,26.83,415.3,9,CVD,918.0,Fe/Co,C2H2,842309.0,46.1,642.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_355,SYNTHETIC_355,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,16.28,431.0,6,CVD,864.0,Co,C2H4,155198.0,35.4,807.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_356,SYNTHETIC_356,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,13.63,311.2,4,Laser ablation,,,,146711.0,23.4,429.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_357,SYNTHETIC_357,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,34.16,744.5,6,Laser ablation,,,,648668.0,72.7,886.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_358,SYNTHETIC_358,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,15.76,134.1,17,Laser ablation,,,,826024.0,78.9,1026.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_359,SYNTHETIC_359,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,28.5,158.1,17,CVD,863.0,Fe/Co,CH4,802569.0,50.9,1228.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_360,SYNTHETIC_360,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,25.65,368.1,17,CVD,914.0,Fe/Co,CH4,562469.0,45.6,633.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_361,SYNTHETIC_361,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,24.09,167.4,16,Arc discharge,,,,515545.0,74.5,954.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_362,SYNTHETIC_362,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,42.97,351.2,3,Laser ablation,,,,275717.0,34.2,423.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_363,SYNTHETIC_363,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,10.39,127.7,18,Arc discharge,,,,605866.0,76.3,771.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_364,SYNTHETIC_364,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,25.68,511.6,5,CVD,708.0,Fe/Co,CH4,733330.0,77.9,550.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_365,SYNTHETIC_365,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,29.27,506.1,7,Arc discharge,,,,970332.0,13.6,646.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_366,SYNTHETIC_366,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,25.67,127.3,17,Laser ablation,,,,597436.0,37.8,390.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_367,SYNTHETIC_367,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,41.01,680.4,13,CVD,961.0,Ni,CO,325421.0,53.7,796.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_368,SYNTHETIC_368,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,45.59,22.0,17,CVD,756.0,Fe,C2H2,272285.0,38.8,1211.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_369,SYNTHETIC_369,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,37.44,410.5,2,CVD,830.0,Ni,C2H2,150927.0,36.2,796.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_370,SYNTHETIC_370,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,39.89,736.2,15,Laser ablation,,,,806742.0,52.1,1236.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_371,SYNTHETIC_371,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,15.99,437.7,9,CVD,856.0,Fe,,201973.0,38.3,889.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_372,SYNTHETIC_372,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,30.36,212.4,18,CVD,779.0,Fe,C2H2,341680.0,30.1,937.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_373,SYNTHETIC_373,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,9.77,599.4,16,HiPco,,,,367562.0,16.4,857.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_374,SYNTHETIC_374,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,7.33,557.8,3,Arc discharge,,,,435934.0,49.5,506.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_375,SYNTHETIC_375,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,17.71,278.4,3,Laser ablation,,,,952060.0,17.4,292.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_376,SYNTHETIC_376,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,37.62,884.2,5,Arc discharge,,,,712101.0,38.6,212.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_377,SYNTHETIC_377,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,47.0,546.6,2,CVD,918.0,Ni,CO,293201.0,56.5,498.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_378,SYNTHETIC_378,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,23.38,101.7,16,CVD,830.0,Fe/Co,CH4,630509.0,52.9,896.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_379,SYNTHETIC_379,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,35.94,212.0,8,CVD,963.0,Fe/Co,CH4,323539.0,25.0,458.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_380,SYNTHETIC_380,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,5.94,464.4,4,CVD,879.0,Ni,C2H2,399731.0,71.9,485.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_381,SYNTHETIC_381,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,46.84,548.8,15,CVD,854.0,Fe,,362346.0,64.0,675.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_382,SYNTHETIC_382,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,30.47,542.9,18,Laser ablation,,,,923731.0,70.2,295.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_383,SYNTHETIC_383,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,24.35,633.9,12,Arc discharge,,,,850279.0,45.0,748.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_384,SYNTHETIC_384,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,47.01,73.4,3,Arc discharge,,,,806588.0,51.9,326.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_385,SYNTHETIC_385,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,26.62,65.6,5,CVD,784.0,Fe/Co,CH4,467900.0,74.7,290.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_386,SYNTHETIC_386,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,6.31,193.8,19,Laser ablation,,,,832713.0,58.0,377.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_387,SYNTHETIC_387,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,3.37,925.3,11,Arc discharge,,,,421197.0,34.8,1010.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_388,SYNTHETIC_388,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,41.92,223.9,6,CVD,806.0,Co,,888687.0,17.2,533.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_389,SYNTHETIC_389,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,41.96,355.4,10,Laser ablation,,,,709247.0,68.7,1019.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_390,SYNTHETIC_390,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,22.48,23.1,10,CVD,902.0,Fe,C2H4,306638.0,18.2,382.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_391,SYNTHETIC_391,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,43.56,536.6,13,Arc discharge,,,,245227.0,15.8,261.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_392,SYNTHETIC_392,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,37.42,882.8,11,Arc discharge,,,,623929.0,18.3,433.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_393,SYNTHETIC_393,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,14.53,67.2,16,Arc discharge,,,,614721.0,79.0,671.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_394,SYNTHETIC_394,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,23.16,545.5,11,CVD,926.0,Fe,C2H2,592017.0,50.3,255.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_395,SYNTHETIC_395,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,35.74,500.7,8,CVD,908.0,Fe,C2H2,906107.0,24.3,666.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_396,SYNTHETIC_396,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,39.49,615.2,12,CVD,842.0,Ni,C2H4,719768.0,27.7,248.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_397,SYNTHETIC_397,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,35.77,755.1,17,CVD,738.0,Fe,C2H2,559506.0,67.4,669.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_398,SYNTHETIC_398,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,3.63,415.6,9,CVD,784.0,Fe,CH4,531334.0,22.7,894.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_399,SYNTHETIC_399,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,28.64,981.9,19,CVD,941.0,Co,,603153.0,32.5,491.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_400,SYNTHETIC_400,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,37.27,612.3,5,CVD,917.0,Ni,CO,107527.0,25.2,729.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_401,SYNTHETIC_401,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,20.54,635.7,3,Laser ablation,,,,593577.0,14.7,734.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_402,SYNTHETIC_402,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,28.76,525.9,8,Arc discharge,,,,782652.0,11.0,402.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_403,SYNTHETIC_403,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,37.89,178.2,10,CVD,817.0,Fe,CH4,644871.0,40.3,941.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_404,SYNTHETIC_404,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,30.2,636.1,11,CVD,824.0,Fe/Co,C2H2,629654.0,23.0,796.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_405,SYNTHETIC_405,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,22.97,908.8,13,Arc discharge,,,,602135.0,50.9,372.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_406,SYNTHETIC_406,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,41.63,662.9,18,CVD,908.0,Fe,,672737.0,32.7,537.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_407,SYNTHETIC_407,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,24.77,285.7,5,Laser ablation,,,,156826.0,64.4,857.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_408,SYNTHETIC_408,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,49.22,788.8,6,Arc discharge,,,,235547.0,25.2,592.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_409,SYNTHETIC_409,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,4.58,880.4,4,Laser ablation,,,,667036.0,70.1,791.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_410,SYNTHETIC_410,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,45.2,889.2,9,Arc discharge,,,,492778.0,56.7,310.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_411,SYNTHETIC_411,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,14.7,580.9,7,CVD,1000.0,Co,CO,825999.0,70.1,1068.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_412,SYNTHETIC_412,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,29.84,311.0,14,CVD,707.0,Co,CO,609563.0,31.9,889.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_413,SYNTHETIC_413,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,3.74,27.0,19,Arc discharge,,,,378060.0,19.3,796.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_414,SYNTHETIC_414,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,29.48,628.4,11,CVD,721.0,Ni,CO,708513.0,19.7,776.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_415,SYNTHETIC_415,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,43.82,385.3,3,CVD,858.0,Fe,,983006.0,55.5,762.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_416,SYNTHETIC_416,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,47.18,509.0,12,Laser ablation,,,,426188.0,70.5,343.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_417,SYNTHETIC_417,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,10.87,505.4,10,Arc discharge,,,,976823.0,14.9,739.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_418,SYNTHETIC_418,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,32.89,603.3,16,CVD,713.0,Ni,C2H2,953870.0,14.2,944.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_419,SYNTHETIC_419,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,31.66,702.6,13,CVD,906.0,Co/Mo,C2H4,958182.0,71.7,808.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_420,SYNTHETIC_420,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,16.02,922.1,12,Arc discharge,,,,419432.0,13.6,269.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_421,SYNTHETIC_421,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,13.85,916.5,17,Arc discharge,,,,637099.0,45.1,1253.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_422,SYNTHETIC_422,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,12.24,740.1,10,HiPco,,,,127023.0,72.8,802.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_423,SYNTHETIC_423,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,32.09,941.4,15,CVD,720.0,,Ethanol,867293.0,75.7,334.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_424,SYNTHETIC_424,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,40.1,422.1,3,CVD,717.0,Co/Mo,CH4,494611.0,47.1,892.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_425,SYNTHETIC_425,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,48.48,445.3,9,CVD,889.0,Fe,CH4,843957.0,35.6,543.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_426,SYNTHETIC_426,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,5.94,218.4,5,CVD,803.0,Co/Mo,CH4,174463.0,43.9,442.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_427,SYNTHETIC_427,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,32.01,164.4,7,Laser ablation,,,,373262.0,31.8,217.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_428,SYNTHETIC_428,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,25.93,91.4,11,Laser ablation,,,,151281.0,39.3,664.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_429,SYNTHETIC_429,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,19.31,551.8,13,Laser ablation,,,,875983.0,32.0,763.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_430,SYNTHETIC_430,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,29.44,767.5,9,CVD,759.0,Co,CO,543312.0,43.8,979.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_431,SYNTHETIC_431,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,8.5,801.7,17,CVD,836.0,Fe/Co,CH4,276777.0,76.6,435.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_432,SYNTHETIC_432,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,37.6,517.8,15,Arc discharge,,,,306844.0,48.7,620.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_433,SYNTHETIC_433,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,9.64,575.2,4,CVD,755.0,Fe/Co,CH4,934411.0,77.9,628.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_434,SYNTHETIC_434,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,39.93,260.3,11,CVD,726.0,Ni,Ethanol,816334.0,22.3,864.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_435,SYNTHETIC_435,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,14.87,524.9,8,Arc discharge,,,,776509.0,53.6,747.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_436,SYNTHETIC_436,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,32.48,752.8,5,CVD,805.0,Fe,C2H2,928666.0,12.8,433.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_437,SYNTHETIC_437,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,46.45,788.0,14,CVD,840.0,Fe/Co,CH4,538539.0,40.1,832.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_438,SYNTHETIC_438,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,46.95,382.0,15,Laser ablation,,,,253638.0,12.1,453.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_439,SYNTHETIC_439,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,33.39,234.5,16,Laser ablation,,,,558869.0,45.1,303.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_440,SYNTHETIC_440,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,16.09,854.5,10,Laser ablation,,,,244612.0,11.7,642.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_441,SYNTHETIC_441,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,18.79,471.0,14,CVD,882.0,Fe,CH4,441776.0,66.1,631.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_442,SYNTHETIC_442,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,29.72,655.0,2,CVD,903.0,Ni,,448590.0,14.6,179.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_443,SYNTHETIC_443,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,27.66,777.5,4,CVD,788.0,Co,CH4,137349.0,54.6,648.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_444,SYNTHETIC_444,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,34.89,324.4,3,Arc discharge,,,,639665.0,45.4,434.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_445,SYNTHETIC_445,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,16.24,963.7,18,Arc discharge,,,,660421.0,79.3,581.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_446,SYNTHETIC_446,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,9.69,320.0,2,CVD,998.0,Co,,945097.0,41.7,299.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_447,SYNTHETIC_447,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,7.34,171.2,13,CVD,802.0,Co,,270454.0,10.4,300.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_448,SYNTHETIC_448,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,38.31,756.3,11,CVD,788.0,Fe,,805786.0,42.4,1044.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_449,SYNTHETIC_449,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,22.33,408.4,19,Laser ablation,,,,918258.0,32.0,983.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_450,SYNTHETIC_450,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,23.68,732.4,4,CVD,829.0,Fe/Co,CH4,761433.0,47.2,412.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_451,SYNTHETIC_451,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,17.1,600.1,15,Arc discharge,,,,625245.0,37.3,603.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_452,SYNTHETIC_452,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,19.17,735.7,5,Arc discharge,,,,195268.0,71.1,619.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_453,SYNTHETIC_453,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,22.31,565.0,18,CVD,776.0,Fe/Co,CH4,168095.0,35.3,354.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_454,SYNTHETIC_454,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,13.09,76.6,17,Laser ablation,,,,729735.0,53.2,1138.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_455,SYNTHETIC_455,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,7.85,180.8,9,CVD,981.0,Fe/Co,,333704.0,77.9,613.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_456,SYNTHETIC_456,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,5.37,62.2,13,Arc discharge,,,,296434.0,79.3,798.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_457,SYNTHETIC_457,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,30.15,365.6,16,Laser ablation,,,,529615.0,34.6,618.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_458,SYNTHETIC_458,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,18.42,217.0,18,Laser ablation,,,,422501.0,73.9,843.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_459,SYNTHETIC_459,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,20.91,810.3,14,CVD,791.0,Co/Mo,CH4,940374.0,57.9,768.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_460,SYNTHETIC_460,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,47.04,318.7,7,CVD,897.0,,C2H4,743278.0,14.8,571.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_461,SYNTHETIC_461,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,27.08,775.8,16,Arc discharge,,,,169123.0,34.8,808.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_462,SYNTHETIC_462,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,42.18,816.5,18,Laser ablation,,,,966035.0,41.1,1034.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_463,SYNTHETIC_463,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,34.76,661.6,17,CVD,786.0,Ni,CH4,916524.0,20.9,480.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_464,SYNTHETIC_464,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,36.38,104.8,9,Arc discharge,,,,758338.0,77.1,423.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_465,SYNTHETIC_465,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,5.36,470.0,8,Arc discharge,,,,666839.0,38.2,881.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_466,SYNTHETIC_466,Synthetic data based on literature ranges (MWCNT),2015,Literature-based synthesis,5.02,783.2,8,Arc discharge,,,,842024.0,20.3,952.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_467,SYNTHETIC_467,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,47.33,244.8,13,CVD,975.0,Fe,Ethanol,535619.0,46.0,541.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_468,SYNTHETIC_468,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,13.11,885.5,4,Laser ablation,,,,741561.0,58.8,439.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_469,SYNTHETIC_469,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,37.23,352.3,7,CVD,740.0,Co,C2H4,508963.0,64.6,1068.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_470,SYNTHETIC_470,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,34.0,691.2,18,CVD,759.0,Fe,Ethanol,477864.0,44.8,1206.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_471,SYNTHETIC_471,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,10.53,179.2,17,CVD,939.0,Fe/Co,C2H4,406490.0,66.3,309.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_472,SYNTHETIC_472,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,31.32,171.4,4,CVD,949.0,Co/Mo,C2H2,338064.0,29.6,404.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_473,SYNTHETIC_473,Synthetic data based on literature ranges (MWCNT),2019,Literature-based synthesis,22.72,60.1,12,CVD,703.0,Co/Mo,CO,952080.0,64.7,537.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_474,SYNTHETIC_474,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,30.65,403.7,8,CVD,719.0,Co,C2H4,776308.0,19.2,671.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_475,SYNTHETIC_475,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,7.38,416.4,12,Laser ablation,,,,301887.0,25.8,1017.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_476,SYNTHETIC_476,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,7.23,201.3,16,Laser ablation,,,,175172.0,24.8,1012.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_477,SYNTHETIC_477,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,43.92,761.5,4,CVD,908.0,Ni,CH4,287730.0,30.7,888.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_478,SYNTHETIC_478,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,10.01,275.5,5,CVD,738.0,Fe,Ethanol,626355.0,33.6,842.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_479,SYNTHETIC_479,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,33.15,267.2,16,CVD,769.0,Co,CH4,705145.0,67.8,932.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_480,SYNTHETIC_480,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,7.96,54.8,12,CVD,901.0,Fe,CH4,993324.0,20.9,1180.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_481,SYNTHETIC_481,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,10.95,358.3,4,Arc discharge,,,,879491.0,30.3,549.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_482,SYNTHETIC_482,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,23.41,452.0,3,CVD,869.0,Co/Mo,CH4,940990.0,58.2,775.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_483,SYNTHETIC_483,Synthetic data based on literature ranges (MWCNT),2010,Literature-based synthesis,7.68,607.2,16,Laser ablation,,,,136125.0,72.3,1254.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_484,SYNTHETIC_484,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,33.65,783.1,8,CVD,960.0,Fe,CH4,981236.0,57.2,964.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_485,SYNTHETIC_485,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,10.13,890.7,3,Laser ablation,,,,104864.0,10.1,454.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_486,SYNTHETIC_486,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,39.12,234.0,11,CVD,888.0,Fe/Co,CH4,153949.0,19.2,802.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_487,SYNTHETIC_487,Synthetic data based on literature ranges (MWCNT),2011,Literature-based synthesis,35.97,122.3,17,CVD,844.0,Co/Mo,C2H2,518803.0,11.0,339.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_488,SYNTHETIC_488,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,42.57,487.9,3,CVD,864.0,Fe,CH4,697442.0,77.6,217.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_489,SYNTHETIC_489,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,30.82,174.2,8,Arc discharge,,,,162455.0,16.3,748.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_490,SYNTHETIC_490,Synthetic data based on literature ranges (MWCNT),2013,Literature-based synthesis,40.61,864.4,7,Arc discharge,,,,364018.0,46.8,811.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_491,SYNTHETIC_491,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,31.46,314.8,14,Arc discharge,,,,951332.0,30.7,247.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_492,SYNTHETIC_492,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,6.84,925.0,9,CVD,833.0,Fe,C2H4,912435.0,68.6,340.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_493,SYNTHETIC_493,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,9.33,103.5,10,CVD,850.0,Co,Ethanol,680413.0,30.2,504.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_494,SYNTHETIC_494,Synthetic data based on literature ranges (MWCNT),2022,Literature-based synthesis,3.0,715.0,18,Arc discharge,,,,233396.0,16.4,1101.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_495,SYNTHETIC_495,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,48.01,570.1,10,Arc discharge,,,,831032.0,36.9,842.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_496,SYNTHETIC_496,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,21.27,247.9,2,CVD,729.0,Fe,,499693.0,47.2,748.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_497,SYNTHETIC_497,Synthetic data based on literature ranges (MWCNT),2014,Literature-based synthesis,44.89,469.2,16,CVD,847.0,Co/Mo,C2H4,725188.0,35.5,998.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_498,SYNTHETIC_498,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,30.19,696.5,14,CVD,941.0,Co,,183250.0,64.6,908.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_499,SYNTHETIC_499,Synthetic data based on literature ranges (MWCNT),2012,Literature-based synthesis,16.37,448.6,14,Laser ablation,,,,276621.0,18.8,1193.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_500,SYNTHETIC_500,Synthetic data based on literature ranges (MWCNT),2020,Literature-based synthesis,25.49,589.7,10,CVD,717.0,Fe,C2H4,589910.0,26.4,816.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_501,SYNTHETIC_501,Synthetic data based on literature ranges (MWCNT),2017,Literature-based synthesis,46.83,528.0,7,CVD,792.0,Ni,Ethanol,828932.0,50.8,839.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_502,SYNTHETIC_502,Synthetic data based on literature ranges (MWCNT),2018,Literature-based synthesis,6.51,908.7,5,CVD,911.0,Ni,C2H2,920205.0,11.5,453.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_503,SYNTHETIC_503,Synthetic data based on literature ranges (MWCNT),2021,Literature-based synthesis,48.83,834.9,5,CVD,927.0,Co,C2H2,941257.0,27.6,296.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_504,SYNTHETIC_504,Synthetic data based on literature ranges (MWCNT),2023,Literature-based synthesis,30.25,352.2,2,Arc discharge,,,,245731.0,56.1,831.0,MWCNT synthetic data,Synthetic,MWCNT
+CNT_505,SYNTHETIC_505,Synthetic data based on literature ranges (MWCNT),2016,Literature-based synthesis,19.67,406.7,16,CVD,996.0,Fe,C2H4,654785.0,42.0,653.0,MWCNT synthetic data,Synthetic,MWCNT

@@ -79,9 +79,18 @@ if __name__ == "__main__":
     try:
         with MPRester(API_KEY) as mpr:
             # 搜索材料 - 使用新的 API v2
-            docs = mpr.materials.summary.search(
-                formula=args.query
-            )
+            # 尝试多种搜索方式
+            print(f"   尝试公式搜索：'{args.query}'")
+            try:
+                docs = mpr.materials.summary.search(
+                    formula=args.query
+                )
+            except Exception as e:
+                print(f"   公式搜索失败：{e}")
+                print(f"   尝试关键词搜索...")
+                docs = mpr.materials.summary.search(
+                    elements=args.query.split()
+                )
             
             print(f"   ✅ 找到 {len(docs)} 条记录")
             

@@ -1,22 +1,21 @@
 {
   "model_version": "v1",
-  "date": "2026-03-06T22:41:46.639079",
-  "n_samples": 2,
-  "n_train": 1,
-  "n_test": 1,
+  "date": "2026-03-11T12:31:41.765353",
+  "n_samples": 274,
+  "n_train": 205,
+  "n_test": 69,
   "features": [
     "diameter_nm",
     "length_um",
-    "layers",
-    "cvd_temperature_C"
+    "layers"
   ],
   "target": "conductivity_Sm",
   "metrics": {
-    "r2": NaN,
-    "mae": 0.034368901631262716,
-    "rmse": 0.034368901631262716,
-    "cv_r2_mean": null,
-    "cv_r2_std": null
+    "r2": 0.7992609161832176,
+    "mae": 0.19209592815205204,
+    "rmse": 0.2724698560644532,
+    "cv_r2_mean": 0.6796556127001976,
+    "cv_r2_std": 0.013987430878777825
   },
-  "kernel": "0.00316**2 * RBF(length_scale=[1, 1, 1, 1]) + WhiteKernel(noise_level=1e-05)"
+  "kernel": "1.11**2 * RBF(length_scale=[3.21e+04, 217, 7.41, 0.0192, 1.13, 3.81e-05, 4.62e+03, 1e+05, 8.45e+03, 1.61e-05, 5e+04]) + WhiteKernel(noise_level=0.158)"
 }
